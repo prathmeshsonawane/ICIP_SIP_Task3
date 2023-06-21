@@ -1,0 +1,80 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(to top, #203dca 0%, #61d7ff 100%);
+}
+  #login-container {
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+  .name {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }  
+  .age {
+    text-align: center;
+    color: #888;
+  }
+  
+  .description {
+    margin-top: 15px;
+    font-size: 15px;
+
+  }
+  .characteristics {
+    list-style-type: none;
+    padding:0;
+    margin-top: 10px;
+  }
+  .contact-info {
+    margin-top: 16px;
+  }
+  .contact-info p {
+    margin-bottom: 6px;
+  }
+  .contact-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .foot p{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-top: 31px;
+  }
+  .foot button{
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+    border: #203dca;
+  }
+  .foot button:hover{
+    background-color:rgb(11, 188, 219); 
+   
+  }
+  span:hover{
+    cursor: pointer;
+  }
